@@ -1,0 +1,35 @@
+.dashboard {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-card {
+    width: 20%;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    flex: flex-wrap;
+}
+
+.other-feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.other-feedback__item {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.other-feedback__item--margin {
+    margin-right: 5px;
+    text-transform: uppercase;
+}
